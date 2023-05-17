@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    /* font-family: "Karla", sans-serif; */
+    /* margin: 0; */
+    background-image: url("/Gradient.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+main {
+    padding: 36px;
+    max-width: 50%;
+    min-width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .header--image {
+    height: 2rem;
+  }
+  
+  .header--title {
+    font-size: 2rem;
+    color: white;
+    padding-top: 0.64rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.form--input {
+    font-family: 'VT323', monospace;
+    border-radius: 5px;
+    /* margin-bottom: 2.5rem; */
+    width: 40%;
+    height:100px;
+    /* border: 1px solid #D5D4D8; */
+    text-indent: 5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background: transparent;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    color: white;
+}
+
+.form--button {
+    /* grid-column: 1 / -1; */
+    /* font-family: "Karla", sans-serif; */
+    font-family: 'VT323', monospace;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 247px;
+height: 40px; */
+    padding: 10px 40px;
+    margin-top: 1.2rem;
+
+        /* border-radius: 5px; */
+        box-shadow: inset 4px 4px 10px rgba(93, 93, 93, 0.25);
+        /* background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%); */
+        background: radial-gradient(86.84% 3311.34% at 4.45% 50%, rgba(106, 120, 250, 0.91) 0%, #2E62AD 26.77%, #2A6FA7 50.36%, #1F5785 100%), radial-gradient(86.84% 3311.34% at 4.45% 50%, rgba(106, 120, 250, 0.91) 0%, #2E62AD 26.77%, #2A6FA7 50.36%, #1F5785 100%);
+    border-radius: 27px;
+        /* color: white; */
+        border: none;
+        cursor: pointer;
+        font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.07em;
+
+    color: #D2C4C4;
+}
+
+.meme {
+    display: flex;
+    justify-content: center;
+}
+
+.meme--image {
+    width: 40%;
+    border-radius: 3px;
+    margin: 2rem auto;
+}
+
+.error {
+    font-family: VT323, monospace;
+    color: #fff;
+}
